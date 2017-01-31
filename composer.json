@@ -2,7 +2,7 @@
     "name": "swissup/command",
     "description": "Magento 2 module gives your possibility to run custom commands",
     "type": "magento2-module",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "license": "OSL-3.0",
     "require": {
         "swissup/core": "*"
