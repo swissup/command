@@ -61,7 +61,7 @@ class ConfigOptionShowCommand extends Command
     protected function configure()
     {
         $this->setName('config:option:show')
-            ->setDescription('Displays output status of modules')
+            ->setDescription('Displays config option(s) value')
             ->setDefinition($this->getOptionsList());
         parent::configure();
     }
