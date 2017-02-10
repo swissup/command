@@ -4,6 +4,7 @@
         <arguments>
             <argument name="commands" xsi:type="array">
                 <item name="moduleOutputStatusCommand" xsi:type="object">Swissup\Command\Console\Command\ModuleOutputStatusCommand</item>
+                <item name="configOptionShowCommand" xsi:type="object">Swissup\Command\Console\Command\ConfigOptionShowCommand</item>
             </argument>
         </arguments>
     </type>
