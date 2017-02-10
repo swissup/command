@@ -129,13 +129,8 @@ class ConfigOptionShowCommand extends Command
         $this->configData = $this->configDataObject->load();
 
         foreach ($this->configData as $key => $value) {
-
             if (0 === strpos($key, $option)) {
-                $optionName = str_replace('/', ' -> ', $key);
-                if (empty($value)) {
-                    $value = 'null';
-                }
-                $output->writeln($optionName . ' : ' . $value);
+                $output->writeln($key . ' : ' . $value);
             }
         }
     }
