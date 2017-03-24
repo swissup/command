@@ -13,15 +13,15 @@ bin/magento module:enable  Swissup_Core Swissup_Command
 bin/magento setup:upgrade
 ~~~
 
-###Usage
-####Show module output status
+### Usage
+#### Show module output status
 ~~~bash
  bin/magento module:output:status -h 
 Usage:
  module:output:status
 ~~~
 
-####Show configuration value(s)
+#### Show configuration value(s)
 ~~~bash
 bin/magento config:option:show -h                    
 Usage:
